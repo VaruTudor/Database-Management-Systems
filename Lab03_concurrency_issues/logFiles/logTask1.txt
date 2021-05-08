@@ -1,0 +1,24 @@
+Begin Test{
+22,a,b
+Both inserts passed
+}End Test
+Begin Test{
+22,a,b
+At least one insert failed
+Violation of UNIQUE KEY constraint 'UQ__clients_a2'. Cannot insert duplicate key in object 'dbo.clients'. The duplicate key value is (22).
+}End Test
+Begin Test{
+client for insert: 22,a,b
+product for inser: a,5
+Both inserts passed
+}End Test
+Begin Test{
+client for insert: 22,a,b
+At least one insert failed
+Violation of UNIQUE KEY constraint 'UQ__clients_a2'. Cannot insert duplicate key in object 'dbo.clients'. The duplicate key value is (22).
+}End Test
+Begin Test{
+client for insert: 22,a,b
+product for inser: a,5
+Both inserts passed
+}End Test

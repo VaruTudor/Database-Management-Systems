@@ -1,0 +1,18 @@
+SELECT * FROM product
+
+sp_HELPINDEX product;
+
+BEGIN TRAN T1
+
+UPDATE product
+SET price=55
+WHERE code=100;
+
+UPDATE product
+SET price=55
+WHERE code=103;
+
+COMMIT TRAN T1
+
+SELECT @@TRANCOUNT
+SELECT @@SPID --CHECK SESSION

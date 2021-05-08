@@ -1,0 +1,10 @@
+C:\Users\Tudor\Desktop\D\faculta\SemIV\DB\Labs\Asignment1\Asignemnt1_WithForms\Asignemnt1_WithForms\bin\Debug\Asignemnt1_WithForms.exe.config
+C:\Users\Tudor\Desktop\D\faculta\SemIV\DB\Labs\Asignment1\Asignemnt1_WithForms\Asignemnt1_WithForms\bin\Debug\Asignemnt1_WithForms.exe
+C:\Users\Tudor\Desktop\D\faculta\SemIV\DB\Labs\Asignment1\Asignemnt1_WithForms\Asignemnt1_WithForms\bin\Debug\Asignemnt1_WithForms.pdb
+C:\Users\Tudor\Desktop\D\faculta\SemIV\DB\Labs\Asignment1\Asignemnt1_WithForms\Asignemnt1_WithForms\obj\Debug\Asignment1_WithForms.csprojAssemblyReference.cache
+C:\Users\Tudor\Desktop\D\faculta\SemIV\DB\Labs\Asignment1\Asignemnt1_WithForms\Asignemnt1_WithForms\obj\Debug\Asignemnt1_WithForms.Form1.resources
+C:\Users\Tudor\Desktop\D\faculta\SemIV\DB\Labs\Asignment1\Asignemnt1_WithForms\Asignemnt1_WithForms\obj\Debug\Asignemnt1_WithForms.Properties.Resources.resources
+C:\Users\Tudor\Desktop\D\faculta\SemIV\DB\Labs\Asignment1\Asignemnt1_WithForms\Asignemnt1_WithForms\obj\Debug\Asignment1_WithForms.csproj.GenerateResource.cache
+C:\Users\Tudor\Desktop\D\faculta\SemIV\DB\Labs\Asignment1\Asignemnt1_WithForms\Asignemnt1_WithForms\obj\Debug\Asignment1_WithForms.csproj.CoreCompileInputs.cache
+C:\Users\Tudor\Desktop\D\faculta\SemIV\DB\Labs\Asignment1\Asignemnt1_WithForms\Asignemnt1_WithForms\obj\Debug\Asignemnt1_WithForms.exe
+C:\Users\Tudor\Desktop\D\faculta\SemIV\DB\Labs\Asignment1\Asignemnt1_WithForms\Asignemnt1_WithForms\obj\Debug\Asignemnt1_WithForms.pdb

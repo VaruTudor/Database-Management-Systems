@@ -1,0 +1,7 @@
+C:\Users\Tudor\Desktop\D\faculta\SemIV\DB\Labs\Asignment1\Asignment1_WithConsole\Asignment1_WithConsole\bin\Debug\Asignment1_WithConsole.exe.config
+C:\Users\Tudor\Desktop\D\faculta\SemIV\DB\Labs\Asignment1\Asignment1_WithConsole\Asignment1_WithConsole\bin\Debug\Asignment1_WithConsole.exe
+C:\Users\Tudor\Desktop\D\faculta\SemIV\DB\Labs\Asignment1\Asignment1_WithConsole\Asignment1_WithConsole\bin\Debug\Asignment1_WithConsole.pdb
+C:\Users\Tudor\Desktop\D\faculta\SemIV\DB\Labs\Asignment1\Asignment1_WithConsole\Asignment1_WithConsole\obj\Debug\Asignment1_WithConsole.csprojAssemblyReference.cache
+C:\Users\Tudor\Desktop\D\faculta\SemIV\DB\Labs\Asignment1\Asignment1_WithConsole\Asignment1_WithConsole\obj\Debug\Asignment1_WithConsole.csproj.CoreCompileInputs.cache
+C:\Users\Tudor\Desktop\D\faculta\SemIV\DB\Labs\Asignment1\Asignment1_WithConsole\Asignment1_WithConsole\obj\Debug\Asignment1_WithConsole.exe
+C:\Users\Tudor\Desktop\D\faculta\SemIV\DB\Labs\Asignment1\Asignment1_WithConsole\Asignment1_WithConsole\obj\Debug\Asignment1_WithConsole.pdb
