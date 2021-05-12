@@ -5,7 +5,6 @@
 
 -- The Shared lock is released as soon as the SELECT is performed
 
-
 BEGIN TRANSACTION T1
 
 SELECT * 

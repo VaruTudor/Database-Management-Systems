@@ -10,7 +10,7 @@
 -- this is called explicit snapshot isolation
 ALTER DATABASE clothes_company_DB SET ALLOW_SNAPSHOT_ISOLATION ON
 -- this does not change anything by itself, but it gives permissions to do so.
--- in order to change we must use SET TRANSACTION ISOLATION LEVEL SNAPSHOT (as we'll use in T2)
+-- in order to change we must use SET TRANSACTION ISOLATION LEVEL SNAPSHOT
 
 USE clothes_company_DB
 
@@ -27,7 +27,6 @@ WAITFOR DELAY '00:00:10'
 COMMIT TRANSACTION T2
 
 -- undo the changes
-ALTER DATABASE clothes_company_DB SET ALLOW_SNAPSHOT_ISOLATION OFF
 UPDATE production_factories 
 SET factory_location='UNDO' 
 WHERE pid=50;

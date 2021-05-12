@@ -51,7 +51,7 @@ BEGIN
 
 	-- varialbe declarations
 	DECLARE @path varchar(200);DECLARE @errorMessage varchar(200); DECLARE @errorMessage2 varchar(200); DECLARE @clientInserted varchar(200); DECLARE @productInserted varchar(200);
-	SET @path='C:\Users\Tudor\Desktop\D\faculta\SemIV\DB\Labs\Asignment3\logFiles\logTask2.txt';
+	SET @path='C:\Users\Tudor\Desktop\D\faculta\SemIV\DB\Labs\Lab03_concurrency_issues\logFiles\logTask2.txt';
 	SET @clientInserted = 'client for insert: ' + CAST(@age AS VARCHAR) + ',' + @first_name + ',' + @last_name;
 	SET @productInserted = 'product for inser: ' + @product_name + ',' + CAST(@price AS VARCHAR);
 

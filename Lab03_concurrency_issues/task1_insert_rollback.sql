@@ -87,7 +87,7 @@ BEGIN
 
 	-- varialbe declarations
 	DECLARE @path varchar(200);DECLARE @errorMessage varchar(200); DECLARE @clientInserted varchar(200); DECLARE @productInserted varchar(200);
-	SET @path='C:\Users\Tudor\Desktop\D\faculta\SemIV\DB\Labs\Asignment3\logFiles\logTask1.txt';
+	SET @path='C:\Users\Tudor\Desktop\D\faculta\SemIV\DB\Labs\Lab03_concurrency_issues\logFiles\logTask1.txt';
 	SET @clientInserted = 'client for insert: ' + CAST(@age AS VARCHAR) + ',' + @first_name + ',' + @last_name;
 	SET @productInserted = 'product for inser: ' + @product_name + ',' + CAST(@price AS VARCHAR);
 
@@ -122,7 +122,7 @@ BEGIN
 	RECONFIGURE;
 END
 
-
+EXEC usp_InsertClientsProductRecordRollbackAll @age=22,@first_name='a',@last_name='b',@product_name='a',@price=5;
 EXEC usp_InsertClientsProductRecordRollbackAll @age=22,@first_name='a',@last_name='b',@product_name='a',@price=5;
 delete from product where product_name='a';
 delete from clients where age=22
